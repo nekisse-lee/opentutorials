@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #park {
+            color: red;
+        }
+        .dark  {
+            background-color: black;
+            color: wheat;
+        }
+        .dark #park {
+            color: yellow;
+        }
+    </style>
+</head>
+<body >
+<ul>
+    <li>kim</li>
+    <li>lee</li>
+    <li id="park">park</li>
+</ul>
+
+<input type="button" value="black" onclick="document.body.className='dark';"/>
+</body>
+</html>
