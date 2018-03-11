@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function color() {
+            var  ul = document.getElementsByTagName("ul")[0];
+            var lis = ul.getElementsByTagName('li');
+            for (i = 0; i < lis.length; i++) {
+                lis[i].style.color = "red";
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="전체컬러변경" onclick="color()"/>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+</body>
+</html>
